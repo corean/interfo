@@ -1,0 +1,14 @@
+{
+  "name": "interfo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "gulp",
+    "server": "gulp server",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2"
+  }
+}
