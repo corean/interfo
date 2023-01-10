@@ -22,6 +22,8 @@
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
   font-weight: 300;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -30,7 +32,7 @@ html {
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "S-CoreDream", sans-serif;
+  font-family: "Inter", "S-CoreDream", sans-serif;
   color: #444444;
   letter-spacing: -.01rem;
   word-spacing: -.1rem;
@@ -47,7 +49,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "S-CoreDream", sans-serif;
+  font-family: "Inter", "S-CoreDream", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -143,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgb(0 120 153 / 85%);
 }
 
 #header .logo {
@@ -1870,5 +1872,36 @@ section {
 
   #footer .credits {
     padding-top: 4px;
+  }
+}
+.btn-primary {
+
+}
+.business .business-item  {
+  fill: #006C89;
+  font-size: 1.1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.business .business-item svg {
+  display: block;
+  fill: #006C89;
+  width: 4.2rem;
+  margin-bottom: 1rem;
+}
+.catalog.section-bg {
+  background-color: #f8f5f5;
+}
+
+@media (min-width: 992px) {
+  .catalog.section-bg {
+    background-image: url('/theme/interfo/assets/img/about/bg-catalog.png');
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
   }
 }
