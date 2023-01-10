@@ -30,7 +30,7 @@
 
                 <div class="accordion-list">
                     <ul>
-                        <li>
+                        <li data-aos="fade-up" data-aos-delay="100">
                             <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">
                                 <span>01</span>성실 <i class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i>
@@ -39,7 +39,7 @@
                                 <p>(주) 인터포는 언제나 성실함을 기본으로 합니다.</p>
                             </div>
                         </li>
-                        <li>
+                        <li  data-aos="fade-up" data-aos-delay="200">
                             <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">
                                 <span>02</span>창의 <i class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i>
@@ -48,7 +48,7 @@
                                 <p>(주) 인터포는 감각적이고 창의적인 생각으로 뭉쳤습니다.</p>
                             </div>
                         </li>
-                        <li>
+                        <li  data-aos="fade-up" data-aos-delay="300">
                             <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">
                                 <span>03</span>열정 <i class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i>
@@ -57,7 +57,7 @@
                                 <p>(주) 인터포는 항상 넘치는 열정으로 임합니다.</p>
                             </div>
                         </li>
-                        <li>
+                        <li  data-aos="fade-up" data-aos-delay="400">
                             <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed">
                                 <span>04</span>도전 <i class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i>
@@ -66,7 +66,7 @@
                                 <p>(주) 인터포는 변화를 두려워하지 않습니다.</p>
                             </div>
                         </li>
-                        <li>
+                        <li  data-aos="fade-up" data-aos-delay="500">
                             <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed">
                                 <span>05</span>나눔 <i class="bx bx-chevron-down icon-show"></i><i
                                         class="bx bx-chevron-up icon-close"></i>
