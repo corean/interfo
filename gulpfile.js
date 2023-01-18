@@ -56,7 +56,6 @@ gulp.task( 'default', function() {
 
     gulp.watch( paths.php ).on( 'change', browserSync.reload );
     gulp.watch( paths.scripts ).on( 'change', browserSync.reload );
-
     gulp.watch( paths.styles, function() {
         gulp.src( paths.styles ).pipe( browserSync.stream() );
     });

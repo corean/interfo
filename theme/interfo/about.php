@@ -15,6 +15,7 @@
         </div>
     </div>
 </section>
+
 <section class="why-us section-bg">
     <div class="container-fluid" data-aos="fade-up">
 
@@ -88,12 +89,14 @@
 
     </div>
 </section>
+
 <section class="partners">
     <div class="container" data-aos="fade-up">
         <h4 class="text-center mb-4">Our Partners</h4>
         <img src="<?= ASSET_PATH ?>/img/about/partners.png" alt="" class="img-fluid">
     </div>
 </section>
+
 <section class="catalog section-bg">
     <div class="container">
         <div class="col-lg-5 col-xl-6">

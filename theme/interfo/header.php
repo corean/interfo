@@ -5,9 +5,9 @@
     <nav id="navbar" class="navbar">
         <ul>
             <li><a class="nav-link scrollto" href="#about">회사소개</a></li>
-            <li><a class="nav-link scrollto" href="#services">사업분야</a></li>
+            <li><a class="nav-link scrollto" href="#business">사업분야</a></li>
             <li><a class="nav-link scrollto" href="#portfolio">포트폴리오</a></li>
-            <li><a class="nav-link scrollto" href="#team">서비스</a></li>
+            <li><a class="nav-link scrollto" href="#service">서비스</a></li>
             <li class="dropdown"><a href="#"><span>커뮤니티</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="#">Drop Down 1</a></li>
