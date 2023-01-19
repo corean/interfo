@@ -22,7 +22,7 @@
     <link href="<?= ASSET_PATH ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="<?= ASSET_PATH ?>/css/style.css" rel="stylesheet">
+    <link href="<?= ASSET_PATH ?>/css/style.css?time=<?= time() ?>" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: Arsha - v4.10.0

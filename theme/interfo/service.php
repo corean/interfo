@@ -64,7 +64,7 @@
             </a>
         </div>
         <div class="pt-5 text-center">
-            <img src="<?= ASSET_PATH ?>/img/service/SP_설명.png" alt="" class="img-fluid" data-aos="flip-left">
+            <img src="<?= ASSET_PATH ?>/img/service/sp_description.png" alt="" class="img-fluid" data-aos="flip-left">
             <hr class="">
             <div class="mt-5 row">
                 <div class="px-5 col-4">
@@ -233,7 +233,7 @@
             <div class="col-lg-5">
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/서비스_케이페스타1.png" style="width: 60px;" alt="">
+                        <img src="<?= ASSET_PATH ?>/img/service/kfestar1.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>지금 내 주변에 핫한 축제가 있을까?</h4>
@@ -242,7 +242,7 @@
                 </div>
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/서비스_케이페스타2.png" style="width: 60px;" alt="">
+                        <img src="<?= ASSET_PATH ?>/img/service/kfestar2.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>내 취향에 딱 맞는 축제추천</h4>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/서비스_케이페스타3.png" style="width: 60px;" alt="">
+                        <img src="<?= ASSET_PATH ?>/img/service/kfestar3.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>광고 말고, 친구들의 진짜 리뷰</h4>
@@ -260,7 +260,7 @@
                 </div>
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/서비스_케이페스타4.png" style="width: 60px;" alt="">
+                        <img src="<?= ASSET_PATH ?>/img/service/kfestar4.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>나만의 축제 리스트</h4>
