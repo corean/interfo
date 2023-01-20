@@ -8,6 +8,26 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <meta name="description"
+          content="OUR BUSNIESS AR / VR 메타버스 응용소프트웨어 개발 홈페이지 디지털북 인터포에 오신것을 환영합니다. Metaverse · Smart Tour · AR/VR · Edu Tech · IOT · Web Solution 포트폴리오 영상 더보기 https://www.youtube.com/watch?v=CB226Np_koI PORTFOLIO 경기대진TP 홈페이지 경기가구인증센터 홈페이지 삽당령 힐링캠프 홈페이지 한국삐아제 홈페이지 한국삐아제-책별 홈페이지 삼척시 마을아카이브 홈페이지 가톨릭관동대학교 박물관 홈페이지 디아이 홈페이지 강릉원주대학교"/>
+    <meta name="robots" content="max-image-preview:large"/>
+    <link rel="canonical" href="http://www.interfo.com/"/>
+    <meta property="og:locale" content="ko_KR"/>
+    <meta property="og:site_name" content="(주)인터포 - 메타버스 플랫폼, AR콘텐츠 개발"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="INTERFO - (주)인터포"/>
+    <meta property="og:description"
+          content="OUR BUSNIESS AR / VR 메타버스 응용소프트웨어 개발 홈페이지 디지털북 인터포에 오신것을 환영합니다. Metaverse · Smart Tour · AR/VR · Edu Tech · IOT · Web Solution 포트폴리오 영상 더보기 https://www.youtube.com/watch?v=CB226Np_koI PORTFOLIO 경기대진TP 홈페이지 경기가구인증센터 홈페이지 삽당령 힐링캠프 홈페이지 한국삐아제 홈페이지 한국삐아제-책별 홈페이지 삼척시 마을아카이브 홈페이지 가톨릭관동대학교 박물관 홈페이지 디아이 홈페이지 강릉원주대학교"/>
+    <meta property="og:url" content="http://www.interfo.com/"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="INTERFO - (주)인터포"/>
+    <meta name="twitter:description"
+          content="OUR BUSNIESS AR / VR 메타버스 응용소프트웨어 개발 홈페이지 디지털북 인터포에 오신것을 환영합니다. Metaverse · Smart Tour · AR/VR · Edu Tech · IOT · Web Solution 포트폴리오 영상 더보기 https://www.youtube.com/watch?v=CB226Np_koI PORTFOLIO 경기대진TP 홈페이지 경기가구인증센터 홈페이지 삽당령 힐링캠프 홈페이지 한국삐아제 홈페이지 한국삐아제-책별 홈페이지 삼척시 마을아카이브 홈페이지 가톨릭관동대학교 박물관 홈페이지 디아이 홈페이지 강릉원주대학교"/>
+
+    <link rel="icon" href="/wp-content/uploads/2022/04/cropped-파비콘-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/wp-content/uploads/2022/04/cropped-파비콘-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/wp-content/uploads/2022/04/cropped-파비콘-180x180.png" />
+
     <!-- Favicons -->
     <link href="/theme/interfo/assets/img/favicon.png" rel="icon">
     <link href="/theme/interfo/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -24,12 +44,6 @@
     <!-- Template Main CSS File -->
     <link href="/theme/interfo/assets/css/style.css?time=<?= time() ?>" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: Arsha - v4.10.0
-    * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
 <body class="not-board-body">
