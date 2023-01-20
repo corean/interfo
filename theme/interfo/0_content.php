@@ -35,34 +35,34 @@
 <body>
 
 <header id="header" class="fixed-top">
-    <?php include_once(G5_THEME_PATH.'/header.php') ?>
+    <?php include_once(G5_THEME_PATH.'/1_header.php') ?>
 </header>
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
-    <?php include_once(G5_THEME_PATH.'/hero.php') ?>
+    <?php include_once(G5_THEME_PATH.'/2_hero.php') ?>
 </section><!-- End Hero -->
 
 <main id="main">
 
     <section class="our-business section-bg">
-        <?php include_once(G5_THEME_PATH.'/our-business.php') ?>
+        <?php include_once(G5_THEME_PATH.'/3_our-business.php') ?>
     </section>
 
     <article id="about">
-        <?php include_once(G5_THEME_PATH.'/about.php') ?>
+        <?php include_once(G5_THEME_PATH.'/4_about.php') ?>
     </article>
 
     <article id="business">
-        <?php include_once(G5_THEME_PATH.'/business.php') ?>
+        <?php include_once(G5_THEME_PATH.'/5_business.php') ?>
     </article>
 
     <article id="portfolio" class="portfolio">
-        <?php //include_once(G5_THEME_PATH.'/portfolio.php') ?>
+        <?php //include_once(G5_THEME_PATH.'/6_portfolio.php') ?>
     </article>
 
     <article id="service">
-        <?php include_once(G5_THEME_PATH.'/service.php') ?>
+        <?php include_once(G5_THEME_PATH.'/7_service.php') ?>
     </article>
 
     <!-- ======= Team Section ======= -->

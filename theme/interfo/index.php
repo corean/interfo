@@ -19,7 +19,7 @@ if(G5_COMMUNITY_USE === false) {
 // include_once(G5_THEME_PATH.'/head.php');
 
 const ASSET_PATH = G5_THEME_URL.'/assets';
-include_once(G5_THEME_PATH.'/content.php');
+include_once(G5_THEME_PATH.'/0_content.php');
 
 
 // include_once(G5_THEME_PATH.'/tail.php');
