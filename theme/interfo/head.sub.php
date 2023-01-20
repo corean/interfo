@@ -66,10 +66,6 @@ header("Pragma: no-cache"); // HTTP/1.0
     <link rel="apple-touch-icon" href="/wp-content/uploads/2022/04/cropped-파비콘-180x180.png" />
     <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/04/cropped-파비콘-270x270.png" />
 
-    <!-- Favicons -->
-    <link href="/theme/interfo/assets/img/favicon.png" rel="icon">
-    <link href="/theme/interfo/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
     <!-- Vendor CSS Files -->
     <link href="/theme/interfo/assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="/theme/interfo/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
