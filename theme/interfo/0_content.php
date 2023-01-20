@@ -32,7 +32,7 @@
     ======================================================== -->
 </head>
 
-<body>
+<body class="not-board-body">
 
 <header id="header" class="fixed-top">
     <?php include_once(G5_THEME_PATH.'/1_header.php') ?>
@@ -61,7 +61,7 @@
         <?php //include_once(G5_THEME_PATH.'/6_portfolio.php') ?>
     </article>
 
-    <article id="service">
+    <article id="service" style="padding-top: 7rem;">
         <?php include_once(G5_THEME_PATH.'/7_service.php') ?>
     </article>
 

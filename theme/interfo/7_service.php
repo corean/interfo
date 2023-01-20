@@ -1,4 +1,4 @@
-<section class="service" style="margin-top: 7rem;">
+<section class="service">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>서비스</h2>
