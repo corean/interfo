@@ -27,16 +27,16 @@
         <div class="pb-5">
             <a href="https://play.google.com/store/apps/details?id=com.Interfo.spielraum" class="me-2">
                 <img decoding="async" width="150"
-                     src="<?= ASSET_PATH ?>/img/service/자산-2@4x-1-300x80.png"
+                     src="/theme/interfo/assets/img/service/자산-2@4x-1-300x80.png"
                      class="attachment-medium_large size-medium_large">
             </a>
             <a href="https://apps.apple.com/kr/app/%EC%8A%88%ED%95%84%EB%9D%BC%EC%9B%80/id1604536458">
                 <img decoding="async" width="150"
-                     src="<?= ASSET_PATH ?>/img/service/자산-1@4x-1-300x80.png"
+                     src="/theme/interfo/assets/img/service/자산-1@4x-1-300x80.png"
                      class="attachment-medium_large size-medium_large">
             </a>
         </div>
-        <img src="<?= ASSET_PATH ?>/img/service/서비스탭_비치비어페스티벌_20220708_김미선대리_pc-_02-1.jpg" alt="" class="img-fluid">
+        <img src="/theme/interfo/assets/img/service/서비스탭_비치비어페스티벌_20220708_김미선대리_pc-_02-1.jpg" alt="" class="img-fluid">
     </div>
 </section>
 
@@ -54,17 +54,17 @@
         <div class="pb-5">
             <a href="https://play.google.com/store/apps/details?id=com.Interfo.spielraum" class="me-2">
                 <img decoding="async" width="150"
-                     src="<?= ASSET_PATH ?>/img/service/자산-2@4x-1-300x80.png"
+                     src="/theme/interfo/assets/img/service/자산-2@4x-1-300x80.png"
                      class="attachment-medium_large size-medium_large">
             </a>
             <a href="https://apps.apple.com/kr/app/%EC%8A%88%ED%95%84%EB%9D%BC%EC%9B%80/id1604536458">
                 <img decoding="async" width="150"
-                     src="<?= ASSET_PATH ?>/img/service/자산-1@4x-1-300x80.png"
+                     src="/theme/interfo/assets/img/service/자산-1@4x-1-300x80.png"
                      class="attachment-medium_large size-medium_large">
             </a>
         </div>
         <div class="pt-5 text-center">
-            <img src="<?= ASSET_PATH ?>/img/service/sp_description.png" alt="" class="img-fluid" data-aos="flip-left">
+            <img src="/theme/interfo/assets/img/service/sp_description.png" alt="" class="img-fluid" data-aos="flip-left">
             <hr class="">
             <div class="mt-5 row">
                 <div class="px-5 col-4">
@@ -95,16 +95,16 @@
                         스쿠버 다이빙의 명소인 강릉 사근진 해중공원의 매력을 해중공원 360도 영상과 다양한 AR콘텐츠를 통해 일반시민과 관광객들에게 체험기회를 제공하는 서비스
                     </p>
                     <a href="https://apps.apple.com/kr/app/ar-%ED%95%B4%EC%A4%91%EA%B3%B5%EC%9B%90/id1603031749">
-                        <img src="<?= ASSET_PATH ?>/img/service/자산-1@4x-1-300x80.png" width="150"
+                        <img src="/theme/interfo/assets/img/service/자산-1@4x-1-300x80.png" width="150"
                              class="attachment-medium_large size-medium_large">
                     </a>
                 </div>
             </div>
             <div class="col-md-3">
-                <img src="<?= ASSET_PATH ?>/img/service/1-2-1.gif" alt="" class="img-fluid" data-aos="flip-up">
+                <img src="/theme/interfo/assets/img/service/1-2-1.gif" alt="" class="img-fluid" data-aos="flip-up">
             </div>
             <div class="col-md-3">
-                <img src="<?= ASSET_PATH ?>/img/service/01_3_1.png" alt="" class="img-fluid" data-aos="flip-up">
+                <img src="/theme/interfo/assets/img/service/01_3_1.png" alt="" class="img-fluid" data-aos="flip-up">
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@
             <div class="col-lg-7">
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/1-1.png" class="img-fluid" alt="">
+                        <img src="/theme/interfo/assets/img/service/1-1.png" class="img-fluid" alt="">
                     </div>
                     <div class="item-info">
                         <h4>증강현실 도보 네비게이션 탑재</h4>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="item d-flex align-items-center mt-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/1-2.png" class="img-fluid" alt="">
+                        <img src="/theme/interfo/assets/img/service/1-2.png" class="img-fluid" alt="">
                     </div>
                     <div class="item-info">
                         <h4>바우길 주변정보 안내</h4>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="item d-flex align-items-center mt-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/1-3.png" class="img-fluid" alt="">
+                        <img src="/theme/interfo/assets/img/service/1-3.png" class="img-fluid" alt="">
                     </div>
                     <div class="item-info">
                         <h4>바우길 주요구간 오디오 해설 기능</h4>
@@ -193,13 +193,13 @@
         </div>
         <div class="row" style="margin-top: 5rem;" data-aos="flip-up" data-aos-easing="ease-out-cubic"
              data-aos-duration="2000">
-            <div class="col-3 px-0"><img src="<?= ASSET_PATH ?>/img/service/sb_002_m.jpg" alt=""
+            <div class="col-3 px-0"><img src="/theme/interfo/assets/img/service/sb_002_m.jpg" alt=""
                                          class="img-fluid skew-1"></div>
-            <div class="col-3 px-0"><img src="<?= ASSET_PATH ?>/img/service/sb_003_m.jpg" alt=""
+            <div class="col-3 px-0"><img src="/theme/interfo/assets/img/service/sb_003_m.jpg" alt=""
                                          class="img-fluid skew-2"></div>
-            <div class="col-3 px-0"><img src="<?= ASSET_PATH ?>/img/service/sb_004_m.jpg" alt=""
+            <div class="col-3 px-0"><img src="/theme/interfo/assets/img/service/sb_004_m.jpg" alt=""
                                          class="img-fluid skew-1"></div>
-            <div class="col-3 px-0"><img src="<?= ASSET_PATH ?>/img/service/sb_005_m.jpg" alt=""
+            <div class="col-3 px-0"><img src="/theme/interfo/assets/img/service/sb_005_m.jpg" alt=""
                                          class="img-fluid skew-2"></div>
         </div>
     </div>
@@ -210,7 +210,7 @@
         <div class="row">
             <div class="col-lg-5 offset-lg-1">
                 <div class="text-wrapper mb-4">
-                    <img src="<?= ASSET_PATH ?>/img/service/kfestar.png" alt=""
+                    <img src="/theme/interfo/assets/img/service/kfestar.png" alt=""
                          style="width: 15rem;margin-bottom: 4rem;">
                     <h3>KFestAR</h3>
                     <div class="sub-title">Share your experience in the festival area!</div>
@@ -233,7 +233,7 @@
             <div class="col-lg-5">
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/kfestar1.png" style="width: 60px;" alt="">
+                        <img src="/theme/interfo/assets/img/service/kfestar1.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>지금 내 주변에 핫한 축제가 있을까?</h4>
@@ -242,7 +242,7 @@
                 </div>
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/kfestar2.png" style="width: 60px;" alt="">
+                        <img src="/theme/interfo/assets/img/service/kfestar2.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>내 취향에 딱 맞는 축제추천</h4>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/kfestar3.png" style="width: 60px;" alt="">
+                        <img src="/theme/interfo/assets/img/service/kfestar3.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>광고 말고, 친구들의 진짜 리뷰</h4>
@@ -260,7 +260,7 @@
                 </div>
                 <div class="item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
                     <div class="pic">
-                        <img src="<?= ASSET_PATH ?>/img/service/kfestar4.png" style="width: 60px;" alt="">
+                        <img src="/theme/interfo/assets/img/service/kfestar4.png" style="width: 60px;" alt="">
                     </div>
                     <div class="item-info">
                         <h4>나만의 축제 리스트</h4>
@@ -300,7 +300,7 @@
         </div>
         <div class="row">
             <div class="col-2">
-                <img src="<?= ASSET_PATH ?>/img/service/travel-walking.png" alt="" class="img-fluid">
+                <img src="/theme/interfo/assets/img/service/travel-walking.png" alt="" class="img-fluid">
 
             </div>
             <div class="col-4">

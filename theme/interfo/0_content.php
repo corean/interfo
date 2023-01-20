@@ -9,20 +9,20 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="<?= ASSET_PATH ?>/img/favicon.png" rel="icon">
-    <link href="<?= ASSET_PATH ?>/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/theme/interfo/assets/img/favicon.png" rel="icon">
+    <link href="/theme/interfo/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Vendor CSS Files -->
-    <link href="<?= ASSET_PATH ?>/vendor/aos/aos.css" rel="stylesheet">
-    <link href="<?= ASSET_PATH ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?= ASSET_PATH ?>/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="<?= ASSET_PATH ?>/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="<?= ASSET_PATH ?>/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="<?= ASSET_PATH ?>/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="<?= ASSET_PATH ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="/theme/interfo/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="<?= ASSET_PATH ?>/css/style.css?time=<?= time() ?>" rel="stylesheet">
+    <link href="/theme/interfo/assets/css/style.css?time=<?= time() ?>" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: Arsha - v4.10.0
@@ -80,7 +80,7 @@
 
                 <div class="col-lg-6">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="pic"><img src="<?= ASSET_PATH ?>/img/team/team-1.jpg" class="img-fluid" alt="">
+                        <div class="pic"><img src="/theme/interfo/assets/img/team/team-1.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>Walter White</h4>
@@ -98,7 +98,7 @@
 
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="pic"><img src="<?= ASSET_PATH ?>/img/team/team-2.jpg" class="img-fluid" alt="">
+                        <div class="pic"><img src="/theme/interfo/assets/img/team/team-2.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>Sarah Jhonson</h4>
@@ -116,7 +116,7 @@
 
                 <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="pic"><img src="<?= ASSET_PATH ?>/img/team/team-3.jpg" class="img-fluid" alt="">
+                        <div class="pic"><img src="/theme/interfo/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>William Anderson</h4>
@@ -134,7 +134,7 @@
 
                 <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="pic"><img src="<?= ASSET_PATH ?>/img/team/team-4.jpg" class="img-fluid" alt="">
+                        <div class="pic"><img src="/theme/interfo/assets/img/team/team-4.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>Amanda Jepson</h4>
@@ -475,16 +475,16 @@
             class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="<?= ASSET_PATH ?>/vendor/aos/aos.js"></script>
-<script src="<?= ASSET_PATH ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?= ASSET_PATH ?>/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="<?= ASSET_PATH ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="<?= ASSET_PATH ?>/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="<?= ASSET_PATH ?>/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="<?= ASSET_PATH ?>/vendor/php-email-form/validate.js"></script>
+<script src="/theme/interfo/assets/vendor/aos/aos.js"></script>
+<script src="/theme/interfo/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/theme/interfo/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/theme/interfo/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/theme/interfo/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/theme/interfo/assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="/theme/interfo/assets/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="<?= ASSET_PATH ?>/js/main.js"></script>
+<script src="/theme/interfo/assets/js/main.js"></script>
 
 </body>
 

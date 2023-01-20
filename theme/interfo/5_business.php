@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="col text-center">
-                <img src="<?= ASSET_PATH ?>/img/business/arvr.png" alt="" class="img-fluid">
+                <img src="/theme/interfo/assets/img/business/arvr.png" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -143,7 +143,7 @@
     <div class="container" data-aos="fade-up">
         <div class="row content">
             <div class="col p-lg-5 mb-4 order-last order-lg-first" data-aos="zoom-in">
-                <img src="<?= ASSET_PATH ?>/img/business/charlesdeluvio-Lks7vei-eAg-unsplash.jpg" alt=""
+                <img src="/theme/interfo/assets/img/business/charlesdeluvio-Lks7vei-eAg-unsplash.jpg" alt=""
                      class="img-fluid">
             </div>
             <div class="col-lg-6">
@@ -258,7 +258,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 p-lg-4" data-aos="zoom-in">
-                <img src="<?= ASSET_PATH ?>/img/business/jonas-leupe-wK-elt11pF0-unsplash.jpg" alt="" class="img-fluid">
+                <img src="/theme/interfo/assets/img/business/jonas-leupe-wK-elt11pF0-unsplash.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -268,7 +268,7 @@
     <div class="container" data-aos="fade-up">
         <div class="row content align-items-center">
             <div class="col px-lg-5 mb-4 order-last order-lg-first" data-aos="zoom-in">
-                <img src="<?= ASSET_PATH ?>/img/business/tool.png" alt=""
+                <img src="/theme/interfo/assets/img/business/tool.png" alt=""
                      class="img-fluid">
             </div>
             <div class="col-lg-6">
@@ -396,7 +396,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 p-lg-4" data-aos="zoom-in">
-                <img src="<?= ASSET_PATH ?>/img/business/monitoring.jpg" alt="" class="img-fluid">
+                <img src="/theme/interfo/assets/img/business/monitoring.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -406,7 +406,7 @@
     <div class="container">
         <div class="row content align-items-center">
             <div class="col-lg-6 p-lg-4" data-aos="zoom-in">
-                <img src="<?= ASSET_PATH ?>/img/business/3d-printing.jpg" alt="" class="img-fluid">
+                <img src="/theme/interfo/assets/img/business/3d-printing.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-lg-6">
                 <h3 class="mb-4 mb-lg-5">
@@ -518,7 +518,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 p-lg-4" data-aos="zoom-in">
-                <img src="<?= ASSET_PATH ?>/img/business/ebook.jpg" alt="" class="img-fluid">
+                <img src="/theme/interfo/assets/img/business/ebook.jpg" alt="" class="img-fluid">
             </div>
 
         </div>

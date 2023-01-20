@@ -82,7 +82,7 @@
 
             </div>
             <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-                 style='background-image: url("<?= ASSET_PATH ?>/img/why-us.png");' data-aos="zoom-in"
+                 style='background-image: url("/theme/interfo/assets/img/why-us.png");' data-aos="zoom-in"
                  data-aos-delay="150">&nbsp;
             </div>
         </div>
@@ -93,7 +93,7 @@
 <section class="partners">
     <div class="container" data-aos="fade-up">
         <h4 class="text-center mb-4">Our Partners</h4>
-        <img src="<?= ASSET_PATH ?>/img/about/partners.png" alt="" class="img-fluid">
+        <img src="/theme/interfo/assets/img/about/partners.png" alt="" class="img-fluid">
     </div>
 </section>
 
