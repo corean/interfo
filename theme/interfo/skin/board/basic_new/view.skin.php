@@ -55,39 +55,41 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
     <section id="bo_v_atc">
         <h2 id="bo_v_atc_title">본문</h2>
-        <div id="bo_v_share">
-			<div class="board-btn">
-				<?php if ($scrap_href) { ?><a href="<?php echo $scrap_href;  ?>" target="_blank" class="scrap-btn" onclick="win_scrap(this.href); return false;">스크랩</a><?php } ?>
-				<a href="#" class="share-btn">공유</a>
-			</div>
-        	<?php include_once(G5_SNS_PATH."/view.sns.skin.php"); ?>
-	    </div>
 
-		<script>
-		$(function(){
-			$(".share-btn").click(function(e){
-				e.stopPropagation();
-				if(!$(this).hasClass('active'))
-				{
-					console.log('adsf');
-					$(this).addClass('active');
-					$("#bo_v_sns").addClass('active');
-				}
-				else
-				{
-					$(this).removeClass('active');
-					$("#bo_v_sns").removeClass('active');
-				}
-				return false;
-			});
-			$(document).on("click", function (e) {
-				if(!$(e.target).closest('#bo_v_sns.active').length) {
-					$(".share-btn").removeClass('active');
-					$("#bo_v_sns").removeClass('active');
-				}
-			});
-		});
-		</script>
+        <?php /* ?>
+        <div id="bo_v_share">
+            <div class="board-btn">
+                <?php if ($scrap_href) { ?><a href="<?php echo $scrap_href;  ?>" target="_blank" class="scrap-btn" onclick="win_scrap(this.href); return false;">스크랩</a><?php } ?>
+                <a href="#" class="share-btn">공유</a>
+            </div>
+            <?php include_once(G5_SNS_PATH."/view.sns.skin.php"); ?>
+        </div>
+        <script>
+            $(function(){
+                $(".share-btn").click(function(e){
+                    e.stopPropagation();
+                    if(!$(this).hasClass('active'))
+                    {
+                        console.log('adsf');
+                        $(this).addClass('active');
+                        $("#bo_v_sns").addClass('active');
+                    }
+                    else
+                    {
+                        $(this).removeClass('active');
+                        $("#bo_v_sns").removeClass('active');
+                    }
+                    return false;
+                });
+                $(document).on("click", function (e) {
+                    if(!$(e.target).closest('#bo_v_sns.active').length) {
+                        $(".share-btn").removeClass('active');
+                        $("#bo_v_sns").removeClass('active');
+                    }
+                });
+            });
+        </script>
+        <?php */ ?>
 
         <?php
         // 파일 출력

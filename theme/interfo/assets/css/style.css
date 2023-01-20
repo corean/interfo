@@ -2139,3 +2139,10 @@ article#service section {
     }
 }
 
+#bo_v_share {
+    display: block !important;
+    float: right;
+}
+#bo_v_con img {
+    margin-bottom: 1rem;
+}
