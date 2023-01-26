@@ -178,6 +178,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     });
 
     <?php } ?>
+
+    $(function() {
+        console.log('!');
+        $("#wr_link1").attr('placeholder', 'youtube 전체링크 https://www.youtube.com/watch?v=HjKtOT_1EJM');
+        $("#wr_link2").attr('placeholder', 'youtube 고유키만 HjKtOT_1EJM');
+        $("#wr_content").text('<p>...</p>');
+    });
+
     function html_auto_br(obj)
     {
         if (obj.checked) {
