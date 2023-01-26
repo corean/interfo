@@ -111,7 +111,7 @@ add_javascript('<script src="/theme/interfo/assets/vendor/bootstrap/js/bootstrap
                 <div class="gall_con">
                     <div class="gall_img" style="<?php if ($board['bo_gallery_height'] > 0) echo 'height:'.$board['bo_gallery_height'].'px;max-height:'.$board['bo_gallery_height'].'px'; ?>">
                         <a href="<?php echo $list[$i]['wr_link1'] ?>?autoplay=1" data-toggle="lightbox" data-gallery="youtubevideos">
-                            <img src="https://img.youtube.com/vi/<?php echo $list[$i]['wr_link2'] ?>/maxresdefault.jpg" alt="">
+                            <img src="https://img.youtube.com/vi/<?php echo $list[$i]['wr_link2'] ?>/mqdefault.jpg" alt="">
                             <h3 class="title"><?php echo $list[$i]['subject'] ?></h3>
                         </a>
                     </div>
