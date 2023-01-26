@@ -65,11 +65,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 			if($list[$i]['wr_reply']) $list[$i]['icon_reply']= "<span class='list-icon icon-reply'>답변</span>";
 			if($list[$i]['icon_secret']) $list[$i]['icon_secret'] = "<span class='list-icon icon-secret'>비밀글</span>";
 
-			if($list[$i]['icon_new']) $list[$i]['icon_pack'].= "<span class='list-icon icon-new'>새글</span>";
-			if($list[$i]['icon_link']) $list[$i]['icon_pack'].= "<span class='list-icon icon-link'>링크</span>";
-			if(isset($list[$i]['icon_file'])) $list[$i]['icon_pack'].= "<span class='list-icon icon-file'>파일첨부</span>";
-
-			if(isset($list[$i]['icon_pack'])) $list[$i]['icon_pack']="<span class='icon-pack-wrap'>{$list[$i]['icon_pack']}</span>";
 		 ?>
 		<li class="<?php if ($list[$i]['is_notice']) echo "bo-notice";if($list[$i]['wr_reply']) echo "re".strlen($list[$i][wr_reply]);?>">
 			<?php if ($is_checkbox) { ?>

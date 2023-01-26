@@ -12,11 +12,15 @@
                 <ul>
                     <li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
                     <li><a href="/bbs/board.php?bo_table=press">보도자료</a></li>
-                    <li><a href="/bbs/#">동영상</a></li>
+                    <li><a href="/bbs/board.php?bo_table=youtube">동영상</a></li>
                     <li><a href="/bbs/#">견적문의</a></li>
                     <li><a href="/bbs/#">채용</a></li>
                 </ul>
             </li>
+
+            <?php if (isset($member['mb_no']) && $member['mb_no'] === '1') : // 관리자인지 ?>
+                <li><a class="nav-link scrollto" href="/adm" target="_blank">관리자</a></li>
+            <?php endif; ?>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
