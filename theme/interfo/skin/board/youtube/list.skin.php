@@ -262,6 +262,6 @@ const options = {
 };
 
 </script>
-    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
 <?php } ?>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
 <!-- } 게시판 목록 끝 -->
