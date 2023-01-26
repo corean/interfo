@@ -31,9 +31,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 	<header>
 		<h2 id="bo-v-title">
 			<span class="bo-v-tit">
-				<?php if ($category_name) { ?>
-				<span class="bo-v-cate">[<?php echo $view['ca_name']; // 분류 출력 끝 ?>]</span> 
-				<?php } ?>
 				<?php echo get_text($view['wr_subject']); // 글제목 출력?>
 			</span>
 		</h2>
@@ -105,40 +102,23 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         }
          ?>
 
-        <!-- 본문 내용 시작 { -->
-        <div id="bo_v_con"><?php echo get_view_thumbnail($view['content']); ?></div>
-        <?php //echo $view['rich_content']; // {이미지:0} 과 같은 코드를 사용할 경우 ?>
-        <!-- } 본문 내용 끝 -->
+        <div>
 
-        <?php if ($is_signature) { ?><p><?php echo $signature ?></p><?php } ?>
+            <ul class="list-unstyled">
+                <li>DATE : <?php echo $view['wr_1']?></li>
+                <li>
+                    PROJECT URL :
+                    <a href="<?php echo $view['link_href'][1] ?>">
+                        <?php echo cut_str($view['link'][1], 70); ?>
+                    </a>
+                    <span class="text-xs text-muted">[<?php echo $view['link_hit'][1] ?>]</span>
+                </li>
+                <?php if ($category_name) : ?>
+                <li>CATEGORY : <?php echo $view['ca_name'] ?></li>
+                <?php endif; ?>
+            </ul>
 
-
-        <!--  추천 비추천 시작 { -->
-        <?php if ( $good_href || $nogood_href) { ?>
-        <div id="bo_v_act">
-            <?php if ($good_href) { ?>
-            <span class="bo_v_act_gng">
-                <a href="<?php echo $good_href.'&amp;'.$qstr ?>" id="good_button" class="bo_v_good"><span class="sound_only">추천</span><strong><?php echo number_format($view['wr_good']) ?></strong></a><b id="bo_v_act_good"></b>
-            </span>
-            <?php } ?>
-            <?php if ($nogood_href) { ?>
-            <span class="bo_v_act_gng">
-                <a href="<?php echo $nogood_href.'&amp;'.$qstr ?>" id="nogood_button" class="bo_v_nogood"><span class="sound_only">비추천</span><strong><?php echo number_format($view['wr_nogood']) ?></strong></a><b id="bo_v_act_nogood"></b>
-            </span>
-            <?php } ?>
         </div>
-        <?php } else {
-            if($board['bo_use_good'] || $board['bo_use_nogood']) {
-        ?>
-        <div id="bo_v_act">
-            <?php if($board['bo_use_good']) { ?><span class="bo_v_good"><span class="sound_only">추천</span><strong><?php echo number_format($view['wr_good']) ?></strong></span><?php } ?>
-            <?php if($board['bo_use_nogood']) { ?><span class="bo_v_nogood"><span class="sound_only">비추천</span><strong><?php echo number_format($view['wr_nogood']) ?></strong></span><?php } ?>
-        </div>
-        <?php
-            }
-        }
-        ?>
-        <!-- }  추천 비추천 끝 -->
     </section>
 
     <?php
@@ -176,34 +156,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     <!-- } 첨부파일 끝 -->
     <?php } ?>
 
-    <?php if(isset($view['link']) && array_filter($view['link'])) { ?>
-    <!-- 관련링크 시작 { -->
-    <section id="bo_v_link">
-        <h2>관련링크</h2>
-        <ul>
-        <?php
-        // 링크
-        $cnt = 0;
-        for ($i=1; $i<=count($view['link']); $i++) {
-            if ($view['link'][$i]) {
-                $cnt++;
-                $link = cut_str($view['link'][$i], 70);
-            ?>
-            <li>
-                <a href="<?php echo $view['link_href'][$i] ?>" target="_blank">
-                    <strong><?php echo $link ?></strong>
-                </a>
-                <span class="bo_v_link_cnt"><?php echo $view['link_hit'][$i] ?>회 연결</span>
-            </li>
-            <?php
-            }
-        }
-        ?>
-        </ul>
-    </section>
-    <!-- } 관련링크 끝 -->
-    <?php } ?>
-    
     <?php if ($prev_href || $next_href) { ?>
     <ul class="bo_v_nb">
         <?php if ($prev_href) { ?><li class="btn_prv"><span class="nb_tit"><i class="fa fa-chevron-up" aria-hidden="true"></i> 이전글</span><a href="<?php echo $prev_href ?>"><?php echo $prev_wr_subject;?></a> <span class="nb_date"><?php echo str_replace('-', '.', substr($prev_wr_date, '2', '8')); ?></span></li><?php } ?>

@@ -113,6 +113,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 					<?php } ?>
 				</div>
 			</div>
+            <div class="input-box">
+                <label for="wr_1" class="input-title">등록일</label>
+                <div class="input-content">
+                    <input type="text" name="wr_1" id="wr_1" placeholder="2023년 1월 25일" value="<?php echo $wr_1 ?>">
+                </div>
+            </div>
 		</div>
 
 		<div class="input-wrap">
