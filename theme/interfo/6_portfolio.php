@@ -1,136 +1,60 @@
 <div class="container" data-aos="fade-up">
 
-    <div class="section-title">
+    <section class="section-title">
         <h2>Portfolio</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
             consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
             fugiat sit in iste officiis commodi quidem hic quas.</p>
-    </div>
+    </section>
 
-    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+    <ul id="portfolio-filters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
         <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-app">App</li>
-        <li data-filter=".filter-card">Card</li>
-        <li data-filter=".filter-web">Web</li>
+        <li data-filter=".filter-web">홈페이지</li>
+        <li data-filter=".filter-app">APP/AR/VR</li>
     </ul>
+
 
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-1.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
+        <?php
+        $sql = "
+            SELECT wr_subject, wr_content, ca_name, wr_link1, wr_link2, wr_1, bf_file
+            FROM g5_write_portfolio pf
+                     LEFT JOIN g5_board_file bf ON bf.bo_table = 'portfolio' AND bf.wr_id = pf.wr_id AND bf_no = 0
+            WHERE wr_is_comment = 0
+            ORDER BY wr_1 DESC;
+        ";
+        $result = sql_query($sql);
+        ?>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-2.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
+        <?php for ($i = 0; $row = sql_fetch_array($result); $i++) : ?>
+            <?php
+            $link = '/data/file/portfolio/'.$row['bf_file'];
+            $category = $row['ca_name'] === '홈페이지' ? 'filter-web' :
+                ($row['ca_name'] === 'APP,AR,VR' ? 'filter-app' : '');
+            ?>
+            <div class="col-lg-4 col-md-6 portfolio-item <?= $category ?>">
+                <div class="portfolio-img">
+                    <img src="<?= $link ?>" class="img-fluid" alt="">
+                </div>
+                <div class="portfolio-info">
+                    <h4><?= $row['wr_subject'] ?></h4>
+                    <p><?= $row['wr_content'] ?></p>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-3.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
+                    <a href="<?= $link ?>" data-gallery="portfolioGallery"
+                       class="portfolio-lightbox preview-link" <?= $row['wr_subject'] ?>
+                       data-glightbox="title:<?= $row['wr_subject'] ?>; description: <a href='<?= $row['wr_link1'] ?>'><?= $row['wr_link1'] ?></a>">
+                        <i class="bx bx-plus"></i>
+                    </a>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-4.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
+                    <?php if ($row['wr_link1']) : ?>
+                    <a href="<?= $row['wr_link1'] ?>" class="details-link" title="More Details">
+                        <i class="bx bx-link"></i>
+                    </a>
+                    <?php endif; ?>
+                </div>
             </div>
-        </div>
+        <?php endfor; ?>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-5.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-6.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-7.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-8.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="/theme/interfo/assets/img/portfolio/portfolio-9.jpg"
-                                            class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a href="/theme/interfo/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                   class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                        class="bx bx-link"></i></a>
-            </div>
-        </div>
     </div>
 </div>
