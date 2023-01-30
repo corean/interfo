@@ -4,7 +4,9 @@ include_once(G5_LIB_PATH.'/naver_syndi.lib.php');
 include_once(G5_CAPTCHA_PATH.'/captcha.lib.php');
 
 // 토큰체크
-check_write_token($bo_table);
+if (isset($_POST['method']) && $_POST['method'] !== 'api') {
+    check_write_token($bo_table);
+}
 
 $g5['title'] = '게시글 저장';
 
@@ -203,7 +205,7 @@ if ($w == '' || $w == 'u') {
 
 $is_use_captcha = ((($board['bo_use_captcha'] && $w !== 'u') || $is_guest) && !$is_admin) ? 1 : 0;
 
-if ($is_use_captcha && !chk_captcha()) {
+if (isset($_POST['method']) && $_POST['method'] !== 'api' && $is_use_captcha && ! chk_captcha()) {
     alert('자동등록방지 숫자가 틀렸습니다.');
 }
 
