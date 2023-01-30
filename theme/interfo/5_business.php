@@ -6,9 +6,7 @@
                 사업분야
             </h2>
             <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                fugiat sit in iste officiis commodi quidem hic quas.
+                AR / VR, 홈페이지, 응용 소프트웨어 개발 등 사업분야 소개
             </p>
         </div>
     </div>

@@ -452,18 +452,24 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 72px;
 }
 
+#hero h1,h2,h3,h4,h5 {
+    font-family: 'Mulish', sans-serif;
+}
 #hero h1 {
-    margin: 0 0 10px 0;
-    font-size: 48px;
+    margin: 0 0 16px 0;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 1.25;
     color: #fff;
+    word-break: keep-all;
 }
 
 #hero h2 {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 1.5;
+    word-break: keep-all;
 }
 
 #hero .btn-get-started {
@@ -2146,4 +2152,8 @@ article#service section {
 }
 #bo_v_con img {
     margin-bottom: 1rem;
+}
+
+.footer-contact .bx {
+    width: 1.2rem;
 }
