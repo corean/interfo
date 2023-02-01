@@ -170,10 +170,10 @@ $uid = get_uniqid();
         data() {
             return {
                 agree: 0,
-                name: '',
-                email: '',
-                phone: '',
-                content: '',
+                name: '이름',
+                email: '이메일',
+                phone: '연락처',
+                content: '문의내용',
                 errors: {
                     count: 0,
                     name: ref(false),
@@ -234,7 +234,7 @@ $uid = get_uniqid();
                     wr_email: this.email,
                     wr_1: this.phone,
                     wr_content: this.content,
-                    wr_subject: 'subject',
+                    wr_subject: this.name,
                     uid: '<?= $uid ?>',
                     w: '',
                     wr_id: '0',
