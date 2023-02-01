@@ -38,7 +38,10 @@
 
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>CONTACT</h4>
-                <p>회사 연락관련 내용</p>
+                <p>
+                    회사 연락관련 내용 <br>
+                    <a href="/bbs/board.php?bo_table=notice&wr_id=13">개인정보처리방침</a>
+                </p>
                 <div class="social-links mt-3">
                     <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
                     <!--<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->

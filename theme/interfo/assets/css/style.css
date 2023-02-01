@@ -2157,3 +2157,12 @@ article#service section {
 .footer-contact .bx {
     width: 1.2rem;
 }
+
+.col-form-label.required:after, .form-label.required:after {
+    content: "*";
+    margin-left: 0.25rem;
+    color: #d63939;
+}
+.navbar a {
+    text-decoration: none;
+}

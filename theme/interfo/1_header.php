@@ -13,8 +13,9 @@
                     <li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
                     <li><a href="/bbs/board.php?bo_table=press">보도자료</a></li>
                     <li><a href="/bbs/board.php?bo_table=youtube">동영상</a></li>
-                    <li><a href="/bbs/#">견적문의</a></li>
-                    <li><a href="/bbs/#">채용</a></li>
+                    <li><a href="/theme/interfo/form/?page=estimate">견적문의</a></li>
+                    <li><a href="/theme/interfo/form/?page=designer">디자이너 채용</a></li>
+                    <li><a href="/theme/interfo/form/?page=developer">개발자 채용</a></li>
                 </ul>
             </li>
 
