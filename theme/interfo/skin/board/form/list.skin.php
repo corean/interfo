@@ -90,7 +90,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 				echo $list[$i]['icon_reply'];
 				echo $list[$i]['icon_secret'];
 				if ($is_category && $list[$i]['ca_name']) {echo "<span class=\"bo-cate-link\">[{$list[$i]['ca_name']}]</span>";}
-				echo $list[$i]['subject'] . '/ '. $list[$i]['wr_1']. ' / ' . $list[$i]['wr_email'];
+				echo $list[$i]['subject'] . ' / '. $list[$i]['wr_1']. ' / ' . $list[$i]['wr_email'];
 				if($list[$i]['comment_cnt']) { echo "<span class='sound_only'>댓글</span>{$list[$i]['comment_cnt']}<span class='sound_only'>개</span>";}
 				echo isset($list[$i]['icon_pack']) ? $list[$i]['icon_pack'] : '';
 				echo "</a>";

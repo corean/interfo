@@ -91,19 +91,19 @@ $uid = get_uniqid();
                 <div class="col-md-8 offset-md-2">
                     <div class="form-floating mb-3">
                         <input type="text" id="wr_name" placeholder="홍길동"  class="form-control"
-                               v-model="name" :class="{ 'is-invalid' : errors.name }">
+                               v-model="name" :class="{ 'is-invalid' : errors.name }" required>
                         <label for="wr_name">이름</label>
                         <div class="invalid-feedback" :class="{ 'd-block' : errors.name }">이름 입력은 필수입니다</div>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" id="email" placeholder="interfo@interfo.com" class="form-control"
-                               v-model="email" :class="{ 'is-invalid' : errors.email }">
+                        <input type="email" id="email" placeholder="interfo@interfo.com" class="form-control"
+                               v-model="email" :class="{ 'is-invalid' : errors.email }" required>
                         <label for="email">이메일</label>
                         <div class="invalid-feedback" :class="{ 'd-block' : errors.email }">이메일 입력은 필수입니다</div>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="phone" placeholder="010-1234-5678"
-                               v-model="phone" :class="{ 'is-invalid' : errors.phone }">
+                               v-model="phone" :class="{ 'is-invalid' : errors.phone }" required>
                         <label for="phone">연락처</label>
                         <div class="invalid-feedback" :class="{ 'd-block' : errors.phone }">연락처 입력은 필수입니다</div>
                     </div>
@@ -170,10 +170,10 @@ $uid = get_uniqid();
         data() {
             return {
                 agree: 0,
-                name: '이름',
-                email: '이메일',
-                phone: '연락처',
-                content: '문의내용',
+                name: '',
+                email: '',
+                phone: '',
+                content: '',
                 errors: {
                     count: 0,
                     name: ref(false),
@@ -199,6 +199,7 @@ $uid = get_uniqid();
                 this.errors.content = false;
             },
             send() {
+                console.log('send');
                 this.resetErrors();
                 if (!this.agree) {
                     alert('개인정보 수집에 동의해주세요.');
@@ -208,7 +209,7 @@ $uid = get_uniqid();
                     this.errors.count++;
                     this.errors.name = true;
                 }
-                if (this.email === '') {
+                if (this.email === '' || !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email))) {
                     this.errors.count++;
                     this.errors.email = true;
                 }
@@ -221,7 +222,6 @@ $uid = get_uniqid();
                     this.errors.content = true;
                 }
                 if (this.errors.count > 0) {
-
                     return;
                 }
 

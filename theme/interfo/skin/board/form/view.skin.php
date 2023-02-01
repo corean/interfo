@@ -34,8 +34,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 				<?php if ($category_name) { ?>
 				<span class="bo-v-cate">[<?php echo $view['ca_name']; // 분류 출력 끝 ?>]</span> 
 				<?php } ?>
-				<?php echo get_text($view['wr_subject']); // 글제목 출력?>
-                <?php echo $view['wr_1']. ' / ' . $view['wr_email']; ?>
+				<?php echo get_text($view['wr_subject']). ' / ' . $view['wr_1']. ' / ' . $view['wr_email']; // 글제목 출력?>
 			</span>
 		</h2>
 	</header>
